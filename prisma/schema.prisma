@@ -1,0 +1,32 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Booking {
+  id             String   @id @default(cuid())
+  createdAt      DateTime @default(now())
+
+  checkIn        DateTime
+  checkOut       DateTime
+  roomType       String
+  adults         Int
+  children       Int      @default(0)
+
+  breakfast      Boolean  @default(false)
+
+  arrivalPeriod  String?
+  transport      String?
+  parkingNeed    Boolean  @default(false)
+
+  contactName    String
+  contactPhone   String
+
+  specialRequest String?
+
+  @@index([roomType, checkIn, checkOut])
+}
+

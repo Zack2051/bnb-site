@@ -176,7 +176,7 @@ export default function RulesPage() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h2 className="text-lg font-semibold">{sec.title}</h2>
-                  <p className="mt-1 text-sm text-neutral-600">
+                  <p className="mt-1 text-sm text-neutral-700">
                     {sec.note}
                   </p>
                 </div>
@@ -206,7 +206,7 @@ export default function RulesPage() {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <div className="text-lg font-semibold">需要協助？</div>
-              <div className="mt-1 text-sm text-neutral-600">
+              <div className="mt-1 text-sm text-neutral-700">
                 抵達時間調整、加人、寵物需求或其他特殊狀況，歡迎先與我們聯繫，我們會盡力幫你安排。
               </div>
             </div>
@@ -228,7 +228,7 @@ export default function RulesPage() {
         </div>
 
         {/* Footer (match your homepage) */}
-        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-500">
+        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-700">
           <div>© {new Date().getFullYear()} 隨意空間（小沈的家）</div>
           <div className="mt-1">226 新北市平溪區白石里 12 號</div>
         </footer>

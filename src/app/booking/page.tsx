@@ -185,7 +185,7 @@ export default function BookingPage() {
             <div className="mt-6 grid gap-5">
               <div>
                 <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-neutral-900">
-                  <BedDouble size={16} className="text-neutral-600" /> 房型
+                  <BedDouble size={16} className="text-neutral-700" /> 房型
                 </div>
                 <select
                   className="w-full rounded-2xl border border-neutral-200 bg-white px-4 py-3 text-sm outline-none focus:border-neutral-400"
@@ -201,7 +201,7 @@ export default function BookingPage() {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-neutral-900">
-                    <Calendar size={16} className="text-neutral-600" /> 入住日期
+                    <Calendar size={16} className="text-neutral-700" /> 入住日期
                   </div>
                   <input
                     type="date"
@@ -213,7 +213,7 @@ export default function BookingPage() {
                 </div>
                 <div>
                   <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-neutral-900">
-                    <Calendar size={16} className="text-neutral-600" /> 退房日期
+                    <Calendar size={16} className="text-neutral-700" /> 退房日期
                   </div>
                   <input
                     type="date"
@@ -228,7 +228,7 @@ export default function BookingPage() {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-neutral-900">
-                    <Users size={16} className="text-neutral-600" /> 成人
+                    <Users size={16} className="text-neutral-700" /> 成人
                   </div>
                   <input
                     type="number"
@@ -240,7 +240,7 @@ export default function BookingPage() {
                 </div>
                 <div>
                   <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-neutral-900">
-                    <Users size={16} className="text-neutral-600" /> 小孩
+                    <Users size={16} className="text-neutral-700" /> 小孩
                   </div>
                   <input
                     type="number"
@@ -259,7 +259,7 @@ export default function BookingPage() {
                     checked={s.breakfast}
                     onChange={(e) => update({ breakfast: e.target.checked })}
                   />
-                  <Coffee size={16} className="text-neutral-600" />
+                  <Coffee size={16} className="text-neutral-700" />
                   需要早餐
                 </label>
 
@@ -269,7 +269,7 @@ export default function BookingPage() {
                     checked={s.parkingNeed}
                     onChange={(e) => update({ parkingNeed: e.target.checked })}
                   />
-                  <ParkingSquare size={16} className="text-neutral-600" />
+                  <ParkingSquare size={16} className="text-neutral-700" />
                   需要停車
                 </label>
               </div>
@@ -277,7 +277,7 @@ export default function BookingPage() {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-neutral-900">
-                    <User size={16} className="text-neutral-600" /> 聯絡人姓名
+                    <User size={16} className="text-neutral-700" /> 聯絡人姓名
                   </div>
                   <input
                     className="w-full rounded-2xl border border-neutral-200 bg-white px-4 py-3 text-sm outline-none focus:border-neutral-400"
@@ -288,7 +288,7 @@ export default function BookingPage() {
                 </div>
                 <div>
                   <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-neutral-900">
-                    <Phone size={16} className="text-neutral-600" /> 聯絡電話
+                    <Phone size={16} className="text-neutral-700" /> 聯絡電話
                   </div>
                   <input
                     className="w-full rounded-2xl border border-neutral-200 bg-white px-4 py-3 text-sm outline-none focus:border-neutral-400"
@@ -301,7 +301,7 @@ export default function BookingPage() {
 
               <div>
                 <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-neutral-900">
-                  <StickyNote size={16} className="text-neutral-600" /> 特殊需求（可選）
+                  <StickyNote size={16} className="text-neutral-700" /> 特殊需求（可選）
                 </div>
                 <textarea
                   className="min-h-[110px] w-full rounded-2xl border border-neutral-200 bg-white px-4 py-3 text-sm outline-none focus:border-neutral-400"
@@ -366,7 +366,7 @@ export default function BookingPage() {
               </div>
             </div>
 
-            <div className="mt-4 rounded-2xl bg-neutral-50 p-4 text-xs text-neutral-600 leading-5">
+            <div className="mt-4 rounded-2xl bg-neutral-50 p-4 text-xs text-neutral-700 leading-5">
               送出後狀態會是 <b>待確認</b>，我們會再用電話 / LINE 與你確認房況與訂房結果。
             </div>
           </div>

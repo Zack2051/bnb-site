@@ -251,25 +251,25 @@ export default function RoomsPage() {
                     </span>
                     </div>
 
-                  <p className="mt-2 text-sm text-neutral-600">
+                  <p className="mt-2 text-sm text-neutral-700">
                     {room.highlight}
                   </p>
 
                   <div className="mt-4 grid gap-3 sm:grid-cols-2">
                     <div className="rounded-2xl bg-neutral-50 p-4">
-                      <div className="text-xs text-neutral-500">床型</div>
+                      <div className="text-xs text-neutral-700">床型</div>
                       <div className="mt-1 text-sm font-semibold text-neutral-900">
                         {room.beds}
                       </div>
                     </div>
                     <div className="rounded-2xl bg-neutral-50 p-4">
-                      <div className="text-xs text-neutral-500">衛浴</div>
+                      <div className="text-xs text-neutral-700">衛浴</div>
                       <div className="mt-1 text-sm font-semibold text-neutral-900">
                         {room.bathroom}
                       </div>
                     </div>
                     <div className="rounded-2xl bg-neutral-50 p-4">
-                     <div className="text-xs text-neutral-500">早餐</div>
+                     <div className="text-xs text-neutral-700">早餐</div>
                      <div className="mt-1 text-sm font-semibold text-neutral-900">
                         {room.breakfast}
                 </div>
@@ -334,14 +334,14 @@ export default function RoomsPage() {
                     ))}
                   </div>
 
-                  <p className="mt-2 text-xs text-neutral-500">
+                  <p className="mt-2 text-xs text-neutral-700">
                   <span className="text-red-500 font-semibold">*</span>
                    本房型均附有吹風機、浴巾等各個人清潔用品。 
                   </p>
                 </div>
               </div>
               <div className="mt-4 rounded-2xl border border-neutral-200 bg-white/90 px-4 py-3 shadow-sm backdrop-blur lg:absolute lg:bottom-5 lg:right-5 lg:mt-0 lg:text-right">
-                <div className="text-xs text-neutral-500">價格</div>
+                <div className="text-xs text-neutral-700">價格</div>
                 <div className="mt-0.5 text-lg font-semibold text-neutral-900">
                   NT$ {room.priceFrom.toLocaleString()} /晚
                 </div>
@@ -350,7 +350,7 @@ export default function RoomsPage() {
           ))}
         </div>
 
-        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-500">
+        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-700">
           <div>© {new Date().getFullYear()} 隨意空間（小沈的家）</div>
           <div className="mt-1">226 新北市平溪區白石里 12 號</div>
         </footer>
@@ -374,7 +374,7 @@ export default function RoomsPage() {
                   {currentRoom?.name}｜圖片 {lightbox.imgIdx + 1}/
                   {currentRoom?.images.length}
                 </div>
-                <div className="text-xs text-neutral-500">
+                <div className="text-xs text-neutral-700">
                   點左右箭頭切換，或按背景關閉
                 </div>
               </div>

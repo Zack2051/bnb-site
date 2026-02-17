@@ -41,7 +41,7 @@ function SectionTitle({
   return (
     <div className="mb-4">
       <h2 className="text-xl font-semibold">{title}</h2>
-      {desc ? <p className="mt-2 text-sm text-neutral-600">{desc}</p> : null}
+      {desc ? <p className="mt-2 text-sm text-neutral-700">{desc}</p> : null}
     </div>
   );
 }
@@ -203,7 +203,7 @@ export default function LocationPage() {
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
-            <div className="px-4 pb-4 pt-3 text-xs text-neutral-500">
+            <div className="px-4 pb-4 pt-3 text-xs text-neutral-700">
               若地圖無法顯示，請點「在 Google 地圖開啟」使用外部導航。
             </div>
           </div>
@@ -248,7 +248,7 @@ export default function LocationPage() {
                   <div className="text-lg font-semibold">
                     {routeTab === "shiding" ? "石碇出發" : "基隆出發"}
                   </div>
-                  <div className="mt-1 text-sm text-neutral-600">
+                  <div className="mt-1 text-sm text-neutral-700">
                     以下為方向指引（你可依實際路況調整），建議仍以 Google 導航為主。
                   </div>
                 </div>
@@ -314,7 +314,7 @@ export default function LocationPage() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <div className="text-lg font-semibold">停車資訊</div>
-                  <div className="mt-1 text-sm text-neutral-600">
+                  <div className="mt-1 text-sm text-neutral-700">
                     兩種停車方式：路邊停車與停車場（可停 10 輛）。
                   </div>
                 </div>
@@ -357,7 +357,7 @@ export default function LocationPage() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <div className="text-lg font-semibold">台鐵</div>
-                  <div className="mt-1 text-sm text-neutral-600">
+                  <div className="mt-1 text-sm text-neutral-700">
                     建議先查好班次；抵達車站後可轉乘其他交通工具。
                   </div>
                 </div>
@@ -394,7 +394,7 @@ export default function LocationPage() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <div className="text-lg font-semibold">公車</div>
-                  <div className="mt-1 text-sm text-neutral-600">
+                  <div className="mt-1 text-sm text-neutral-700">
                     山區班次可能較少，建議出發前先確認時刻。
                   </div>
                 </div>
@@ -423,7 +423,7 @@ export default function LocationPage() {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <div className="text-lg font-semibold">抵達提醒</div>
-              <div className="mt-1 text-sm text-neutral-600">
+              <div className="mt-1 text-sm text-neutral-700">
                 晚間路段較暗，請減速慢行；若抵達時間有變動或迷失方向，建議先聯絡我們。
               </div>
             </div>
@@ -445,7 +445,7 @@ export default function LocationPage() {
         </div>
 
         {/* Footer */}
-        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-500">
+        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-700">
           <div>© {new Date().getFullYear()} 隨意空間（小沈的家）</div>
           <div className="mt-1">{address}</div>
         </footer>

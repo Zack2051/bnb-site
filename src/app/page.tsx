@@ -123,7 +123,7 @@ export default function HomePage() {
       {/* Nav cards */}
       <section className="mx-auto max-w-6xl px-6 py-12">
         <h2 className="text-xl font-semibold">快速導覽</h2>
-        <p className="mt-2 text-sm text-neutral-600">
+        <p className="mt-2 text-sm text-neutral-700">
           點選下方項目查看房型、交通與入住資訊。
         </p>
 
@@ -137,7 +137,7 @@ export default function HomePage() {
               <div className="flex items-start justify-between">
                 <div>
                   <div className="text-lg font-semibold">{it.title}</div>
-                  <div className="mt-1 text-sm text-neutral-600">
+                  <div className="mt-1 text-sm text-neutral-700">
                     {it.desc}
                   </div>
                 </div>
@@ -149,7 +149,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-500">
+        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-700">
           <div>
             © {new Date().getFullYear()} 隨意空間（小沈的家）
           </div>

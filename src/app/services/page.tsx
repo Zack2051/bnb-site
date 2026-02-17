@@ -73,7 +73,7 @@ function ContactTile({
   icon: React.ReactNode;
 }) {
   return (<div className="rounded-2xl bg-neutral-50 p-4">
-      <div className="flex items-center gap-2 text-xs text-neutral-500">
+      <div className="flex items-center gap-2 text-xs text-neutral-700">
         <span className="inline-flex items-center justify-center">{icon}</span>
         <span>{label}</span>
       </div>
@@ -195,7 +195,7 @@ export default function ServicesPage() {
                 <div className="text-2xl font-semibold text-neutral-900">
                   立即訂房
                 </div>
-                <div className="mt-2 text-sm text-neutral-600">
+                <div className="mt-2 text-sm text-neutral-700">
                   建議使用 LINE 最快確認房況；緊急或需要快速回覆可直接電話。
                   若需文字詳述或附檔，也可用 Gmail。
                 </div>
@@ -226,7 +226,7 @@ export default function ServicesPage() {
                   ))}
                 </ul>
 
-                <div className="mt-4 text-xs text-neutral-500">
+                <div className="mt-4 text-xs text-neutral-700">
                   想先看看房型？可到{" "}
                   <Link href="/rooms" className="underline underline-offset-2">
                     房型頁
@@ -257,7 +257,7 @@ export default function ServicesPage() {
             <div className="text-lg font-semibold text-neutral-900">
               住宿問題詢問
             </div>
-            <div className="mt-2 text-sm text-neutral-600">
+            <div className="mt-2 text-sm text-neutral-700">
               入住期間有任何問題（設備、路況、停車、加被等）可用 LINE 留言；
               若是緊急狀況，建議直接電話。
             </div>
@@ -271,7 +271,7 @@ export default function ServicesPage() {
               </ButtonLink>
             </div>
 
-            <div className="mt-4 rounded-2xl bg-neutral-50 p-4 text-xs text-neutral-600 leading-5">
+            <div className="mt-4 rounded-2xl bg-neutral-50 p-4 text-xs text-neutral-700 leading-5">
               小提醒：若你正在路上，建議先告知「目前位置/預計抵達時間」，我們能更快協助。
             </div>
           </div>
@@ -283,7 +283,7 @@ export default function ServicesPage() {
                 <div className="text-lg font-semibold text-neutral-900">
                   住宿回饋
                 </div>
-                <div className="mt-2 text-sm text-neutral-600">
+                <div className="mt-2 text-sm text-neutral-700">
                   建議使用表單回饋，方便我們統整與改善；也可以用 Gmail 或 LINE 留言。
                 </div>
 
@@ -299,7 +299,7 @@ export default function ServicesPage() {
                   </ButtonLink>
                 </div>
 
-                <div className="mt-4 rounded-2xl bg-neutral-50 p-4 text-xs text-neutral-600 leading-5">
+                <div className="mt-4 rounded-2xl bg-neutral-50 p-4 text-xs text-neutral-700 leading-5">
                   回饋內容建議包含：入住日期/房型、喜歡的地方、可改進之處（若可附照片更好）。
                 </div>
               </div>
@@ -308,7 +308,7 @@ export default function ServicesPage() {
                 <div className="text-sm font-semibold text-neutral-900">
                   我們會看見你的建議
                 </div>
-                <div className="mt-2 text-xs leading-5 text-neutral-600">
+                <div className="mt-2 text-xs leading-5 text-neutral-700">
                   你的回饋會幫助我們把空間變得更舒服。若你願意被聯絡，可以在表單留下聯絡方式。
                 </div>
               </div>
@@ -320,25 +320,25 @@ export default function ServicesPage() {
         <div className="mt-8">
           <div className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm">
             <div className="text-lg font-semibold text-neutral-900">聯絡資訊</div>
-            <div className="mt-2 text-sm text-neutral-600">
+            <div className="mt-2 text-sm text-neutral-700">
               你可以把這些資訊放到 Google 地圖商家資訊與社群頁面，提升信任度與轉換率。
             </div>
 
             <div className="mt-5 space-y-3">
               <div className="rounded-2xl bg-neutral-50 p-4">
-                <div className="text-xs text-neutral-500">LINE</div>
+                <div className="text-xs text-neutral-700">LINE</div>
                 <div className="mt-1 text-sm font-semibold text-neutral-900">
                   {lineHref}
                 </div>
               </div>
               <div className="rounded-2xl bg-neutral-50 p-4">
-                <div className="text-xs text-neutral-500">電話</div>
+                <div className="text-xs text-neutral-700">電話</div>
                 <div className="mt-1 text-sm font-semibold text-neutral-900">
                   {phoneNumber}
                 </div>
               </div>
               <div className="rounded-2xl bg-neutral-50 p-4">
-                <div className="text-xs text-neutral-500">Gmail</div>
+                <div className="text-xs text-neutral-700">Gmail</div>
                 <div className="mt-1 text-sm font-semibold text-neutral-900">
                   {gmail}
                 </div>
@@ -362,7 +362,7 @@ export default function ServicesPage() {
           </div>
         </div>
 
-        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-500">
+        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-700">
           <div>© {new Date().getFullYear()} 隨意空間（小沈的家）</div>
           <div className="mt-1">226 新北市平溪區白石里 12 號</div>
         </footer>

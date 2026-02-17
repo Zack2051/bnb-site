@@ -259,11 +259,11 @@ export default function AmenitiesAsAttractionsPage() {
                       <h2 className="text-2xl font-semibold text-neutral-900">
                         {a.name}
                       </h2>
-                      <p className="mt-2 text-sm text-neutral-600">{a.intro}</p>
+                      <p className="mt-2 text-sm text-neutral-700">{a.intro}</p>
                     </div>
 
                     <div className="rounded-2xl bg-neutral-50 p-4">
-                      <div className="flex items-center gap-2 text-xs text-neutral-500">
+                      <div className="flex items-center gap-2 text-xs text-neutral-700">
                         <MapPin size={16} />
                         <span>地址</span>
                       </div>
@@ -307,7 +307,7 @@ export default function AmenitiesAsAttractionsPage() {
           ))}
         </div>
 
-        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-500">
+        <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-700">
           <div>© {new Date().getFullYear()} 隨意空間（小沈的家）</div>
           <div className="mt-1">226 新北市平溪區白石里 12 號</div>
         </footer>

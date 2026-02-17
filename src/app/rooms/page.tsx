@@ -121,6 +121,7 @@ export default function RoomsPage() {
         ],
       },
     ],
+    []
   );
 
   // Lightbox state

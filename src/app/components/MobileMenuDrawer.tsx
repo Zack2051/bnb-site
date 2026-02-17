@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/", label: "首頁" },
@@ -23,10 +24,10 @@ export default function MobileMenuDrawer() {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="fixed right-4 top-4 z-[60] rounded-2xl border border-neutral-200 bg-white/95 px-3 py-2 text-sm font-semibold text-neutral-900 shadow-sm backdrop-blur md:hidden"
+        className="fixed right-4 top-4 z-[60] inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-neutral-200 bg-white/95 text-neutral-900 shadow-sm backdrop-blur md:hidden"
         aria-label="開啟選單"
       >
-        選單
+        <Menu size={20} />
       </button>
 
       {open ? (
@@ -44,10 +45,10 @@ export default function MobileMenuDrawer() {
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                className="rounded-xl border border-neutral-200 px-3 py-1.5 text-sm font-semibold text-neutral-800"
+                className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-neutral-200 text-neutral-800"
                 aria-label="關閉選單"
               >
-                關閉
+                <X size={18} />
               </button>
             </div>
 

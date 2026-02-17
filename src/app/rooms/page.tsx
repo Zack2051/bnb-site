@@ -340,7 +340,7 @@ export default function RoomsPage() {
                   </p>
                 </div>
               </div>
-              <div className="absolute bottom-5 right-5 rounded-2xl border border-neutral-200 bg-white/90 px-4 py-3 text-right shadow-sm backdrop-blur">
+              <div className="mt-4 rounded-2xl border border-neutral-200 bg-white/90 px-4 py-3 shadow-sm backdrop-blur lg:absolute lg:bottom-5 lg:right-5 lg:mt-0 lg:text-right">
                 <div className="text-xs text-neutral-500">價格</div>
                 <div className="mt-0.5 text-lg font-semibold text-neutral-900">
                   NT$ {room.priceFrom.toLocaleString()} /晚

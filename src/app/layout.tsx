@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import MobileBottomNav from "@/app/components/MobileBottomNav";
+import MobileMenuDrawer from "@/app/components/MobileMenuDrawer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,8 +28,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="pb-16 md:pb-0">{children}</div>
-        <MobileBottomNav />
+        {children}
+        <MobileMenuDrawer />
       </body>
     </html>
   );

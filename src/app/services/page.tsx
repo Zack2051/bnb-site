@@ -86,7 +86,7 @@ function ContactTile({
 
 export default function ServicesPage() {
   // ✅ 先用假資料，之後你再換成真的
-  const lineHref = "https://line.me/ti/p/y/_OQy37CGH"; // TODO: 換成你的 lin.ee 連結
+  const lineHref = "https://line.me/ti/p/y_OQy37CGH"; // TODO: 換成你的 lin.ee 連結
   const phoneNumber = "0939-368-781"; // TODO: 換成你爸手機（顯示用）
   const phoneHref = "tel:+886939368781"; // TODO: 換成正確 tel（台灣 +886）
   const gmail = "jbhjkllf@gmail.com"; // TODO: 換成你的 Gmail

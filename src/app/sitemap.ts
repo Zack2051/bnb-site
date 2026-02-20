@@ -16,4 +16,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return paths.map((p) => ({
     url: `${baseUrl}${p}`,
     lastModified: new Date(),
-  }));]
+  }));}

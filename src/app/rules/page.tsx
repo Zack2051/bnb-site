@@ -18,8 +18,8 @@ const RULE_SECTIONS = [
   {
     title: "入住與退房",
     items: [
-      { k: "入住", v: "16:00 後（可依當日狀況協助提前）" },
-      { k: "退房", v: "10:00 前（如需延後請先聯繫）" },
+      { k: "入住", v: "15:00 後（可依當日狀況協助提前）" },
+      { k: "退房", v: "11:00 前（如需延後請先聯繫）" },
       { k: "報到方式", v: "抵達前請先聯絡，我們會提供入住房號／鑰匙方式" },
     ],
     note: "如遇交通延誤或抵達時間有變動，請提早通知，我們會協助安排。",
@@ -135,8 +135,8 @@ export default function RulesPage() {
             </p>
 
             <div className="mt-6 flex flex-wrap gap-2">
-              <Badge>入住 16:00 後</Badge>
-              <Badge>退房 10:00 前</Badge>
+              <Badge>入住 15:00 後</Badge>
+              <Badge>退房 11:00 前</Badge>
               <Badge>22:00 後安靜</Badge>
               <Badge>室內禁菸</Badge>
             </div>

@@ -1,33 +1,20 @@
-export default function sitemap() {
-  const baseUrl = "https://bnb-site.vercel.app"; // 改成你的網址
+import type { MetadataRoute } from "next";
 
-  return [
-    {
-      url: `${baseUrl}/`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseUrl}/rooms`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseUrl}/location`,
-      lastModified: new Date(),
-    },
-    {url: `${baseUrl}/services`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseUrl}/rules`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseUrl}/amenities`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseUrl}/booking`,
-      lastModified: new Date(),
-    },
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://bnb-site.vercel.app";
+
+  const paths = [
+    "/",
+    "/rooms",
+    "/location",
+    "/services",
+    "/rules",
+    "/amenities",
+    "/booking",
   ];
+
+  return paths.map((p) => ({
+    url: `${baseUrl}${p}`,
+    lastModified: new Date(),
+  }));
 }

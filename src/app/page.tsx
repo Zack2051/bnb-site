@@ -3,14 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-
-const images = [
-  "/p25.JPG",
-  "/p26.JPG",
-  "/p27.JPG",
-  "/p28.JPG",
-  "/p29.JPG",
-];
+const images = ["/p25.JPG", "/p26.JPG", "/p27.JPG", "/p28.JPG", "/p29.JPG"];
 
 const NAV_ITEMS = [
   { href: "/rooms", title: "房型", desc: "房型照片、可住人數、設備" },
@@ -69,7 +62,7 @@ export default function HomePage() {
                 <Link
                   key={it.href}
                   href={it.href}
-                  className="hover:text-white transition"
+                  className="transition hover:text-white"
                 >
                   {it.title}
                 </Link>
@@ -79,27 +72,29 @@ export default function HomePage() {
 
           {/* Center copy */}
           <div className="max-w-2xl">
-           <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
-            隨意空間｜菁桐民宿・平溪住宿
+            <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
+              隨意空間｜菁桐民宿・平溪住宿
             </h1>
-          <p className="mt-4 text-base text-white/85 md:text-lg">
-            距離十分不遠，卻遠離人潮。
-            在菁桐山城的靜謐裡，
-            提供更安靜舒適的住宿體驗。
+
+            <p className="mt-4 text-base text-white/85 md:text-lg">
+              距離十分不遠，卻遠離人潮與喧鬧。
+              在菁桐山城的靜謐裡，提供更安靜舒適的住宿體驗。
             </p>
-              入住／退房時間與訂房方式請見下方資訊。
+
+            <p className="mt-4 text-base text-white/85 md:text-lg">
+              入住與退房時間、訂房方式等資訊，請參考下方說明。
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
                 href="/rooms"
-                className="rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-black hover:bg-white/90 transition"
+                className="rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-black transition hover:bg-white/90"
               >
                 看房型
               </Link>
               <Link
                 href="/location"
-                className="rounded-2xl border border-white/40 bg-white/10 px-5 py-3 text-sm font-semibold text-white backdrop-blur hover:bg-white/15 transition"
+                className="rounded-2xl border border-white/40 bg-white/10 px-5 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/15"
               >
                 看交通
               </Link>
@@ -136,9 +131,7 @@ export default function HomePage() {
               <div className="flex items-start justify-between">
                 <div>
                   <div className="text-lg font-semibold">{it.title}</div>
-                  <div className="mt-1 text-sm text-neutral-700">
-                    {it.desc}
-                  </div>
+                  <div className="mt-1 text-sm text-neutral-700">{it.desc}</div>
                 </div>
                 <div className="rounded-2xl border border-neutral-200 px-3 py-2 text-xs text-neutral-700 group-hover:border-neutral-300">
                   查看 →
@@ -149,12 +142,8 @@ export default function HomePage() {
         </div>
 
         <footer className="mt-12 border-t pt-6 text-center text-sm text-neutral-700">
-          <div>
-            © {new Date().getFullYear()} 隨意空間（小沈的家）
-          </div>
-          <div className="mt-1">
-            226 新北市平溪區白石里 12 號
-          </div>
+          <div>© {new Date().getFullYear()} 隨意空間（小沈的家）</div>
+          <div className="mt-1">226 新北市平溪區白石里 12 號</div>
         </footer>
       </section>
     </main>

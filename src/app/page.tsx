@@ -79,15 +79,14 @@ export default function HomePage() {
 
           {/* Center copy */}
           <div className="max-w-2xl">
-            <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
-              把日子放慢，
-              <br />
-              住進風景裡。
+           <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
+            隨意空間｜菁桐民宿・平溪住宿
             </h1>
-
-            <p className="mt-4 text-base text-white/85 md:text-lg">
-              遠離嘈雜十分，住進寧靜菁桐。適合家庭、情侶與想好好休息的你。
-              <br />
+          <p className="mt-4 text-base text-white/85 md:text-lg">
+            距離十分不遠，卻遠離人潮。
+            在菁桐山城的靜謐裡，
+            提供更安靜舒適的住宿體驗。
+            </p>
               入住／退房時間與訂房方式請見下方資訊。
             </p>
 

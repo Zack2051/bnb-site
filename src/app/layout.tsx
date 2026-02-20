@@ -14,8 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BnB Site",
-  description: "Your premier bed and breakfast experience",
+  title: "隨意空間民宿｜平溪住宿推薦｜菁桐民宿|白石腳民宿",
+  description:
+    "平溪住宿推薦，鄰近菁桐老街與平溪老街，提供雙人房與家庭房，附停車與早餐。",
+  keywords: ["平溪住宿", "菁桐民宿", "平溪民宿推薦", "雙人房", "家庭房"],
+  verification: {
+    google: "CnSgzEZVV7oFzyVgzsrKoIUvac4pXYJeMtl4Wj6GZxc",
+  },
 };
 
 export default function RootLayout({
